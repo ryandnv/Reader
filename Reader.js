@@ -1,3 +1,4 @@
+
 const fs = require("fs");
 const util = require("util"); //permite o uso de async await no FS
 
@@ -16,5 +17,6 @@ class Reader{
         
     }
 }
+
 
 module.exports = Reader;
