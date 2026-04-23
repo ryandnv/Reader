@@ -16,10 +16,6 @@ async function main() {
         console.log(`${error} Ocorrou um erro`)
     }
     
-   /* Podemos adicionar itens na tabela com o push, ja que o rows e um array
-    users.rows.push(["Renan", "Formation JAVA", "JAVA", "7"])
-    users.rows.push(["Renan", "Formation JAVA", "JAVA", "37"])
-     console.log("Número de linhas agora:", users.RowCount);*/
 }
 
 main();

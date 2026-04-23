@@ -1,6 +1,6 @@
 class Processor {
     static Process (data) {
-        var run = data.split("\r\n"); // \n representa a quebra de linha
+        var run = data.split(/\r?\n/); // o símbolo ? logo após o \r diz ao JavaScript que a presença daquele caractere específico é opcional
         var rows = [];
 
         run.forEach(row => {
@@ -9,8 +9,6 @@ class Processor {
         });
 
         return rows
-
-        console.log(rows);
         
     }
 }
